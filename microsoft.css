@@ -1,0 +1,373 @@
+#nav{
+    display: grid;
+    grid-template-columns: 1fr 7fr 4fr;
+}
+.mlogo{
+    width: 150px;
+    height: 80px;
+    padding-left: 50px;
+    padding-top: 0px;
+    margin-top: -12px;
+}
+
+
+#nav-content{
+    display: flex;
+    flex-direction: row;
+    text-decoration: none;
+    
+}
+#nav-content li{
+    padding: 5px 23px 0px 0px;
+    text-decoration: none;
+    list-style: none;
+    font-size: 13px;
+    
+}
+#nav-content li a{
+    text-decoration: none;
+    color: black;
+    
+    font-family: 'Arima Madurai', cursive;
+}
+#nav-content li a:hover{
+    cursor: pointer;
+    border-bottom: 2.5px solid black;
+
+}
+#nav-details{
+    display: flex;
+}
+#nav-details li{
+    
+    font-size: 13px;
+    list-style: none;
+    display: flex;
+    padding:  0px 10px 0px 5px;;
+    
+}
+#nav-details li a{
+    text-decoration: none;
+    color: black;
+    font-family:'Arima Madurai', cursive; 
+    display: flex;
+
+}
+
+.navlogo{
+    width: 30px;
+    height: 30px;
+   
+    
+}
+.navlogo1{
+    width: 40px;
+    height: 30px;
+    
+    
+}
+#nav-details li .navbar{
+    margin: 0px;
+    padding: 5px 5px;
+    
+}
+#nav-details li .navbar1{
+    margin: 0px;
+    padding: 5px 0px;
+    
+}
+/* #photo-details::before{
+    content:"";
+    position: absolute;
+    background: url(surfacego2.jpg) no-repeat center center/cover;
+    width: 50%;
+    height: 65%;
+    z-index: -1;
+    opacity: 1;
+    padding-left: 0px;
+    margin-left: 40px;
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+} */
+
+
+#photo-details{
+    list-style: none;
+}
+#surface a{
+    display: grid;
+    grid-template-columns: 5fr 3fr;
+    
+}
+#surface a{
+    text-decoration: none;
+}
+#photo-details .new{
+    color: rgb(247, 16, 16);
+    background-color: white;
+    border: none;
+    padding: 8px 16px;
+    font-weight: bold;
+    font-size: 14px;
+    
+    
+}
+#photo-details li h1{
+    color: black;
+    font-family: 'Ubuntu', sans-serif;
+}
+#photo-details li {
+    color: black;
+    font-size: 17px;
+}
+#photo-details .shop{
+    color: white;
+    background-color: black;
+    padding: 7px 18px;
+    font-size: 17px;
+    font-weight: bold;
+    margin-top: 15px;
+}
+#photo-details{
+    background-color: #eeeeee;
+    padding-top: 70px;
+    padding-left: 0px;
+    margin: 0px;
+    padding-right: 50px;
+    margin-left: -50px;
+    margin-right: 50px;
+}
+
+
+
+.surfacego{
+    margin-left: 60px;
+    width: 90%;
+    height: 100%;
+}
+/* #microsoft-1{
+    margin-top: 80px;
+    margin-bottom: 40px;
+    
+} */
+#microsoft-1 ul{
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    margin-left: 0px;
+    margin-right: 0px;
+    
+}
+#microsoft-1 .features1{
+    width: 80px;
+    height: 67px;
+    align-items: center;
+    padding-bottom: 5px;
+}
+#microsoft-1 .features2{
+    width: 70px;
+    height: 67px;
+    align-items: center;
+    padding-bottom: 6px;
+}
+#microsoft-1 button{
+    border: none;
+    background-color: white;
+    align-items: center;
+}
+#microsoft-1 button{
+    display: flex;
+    flex-direction: column;
+    font-weight: bold;
+    font-size: 14px;
+    padding: 0px 5px;
+    margin: 2px 0px;
+    width: 80%;
+    cursor: pointer;
+    color: maroon;
+    
+}
+#microsoft-1 .navf1{
+    align-items: center;
+}
+#microsoft-1 button:hover{
+    text-decoration: underline 2px;
+    font-weight: bold;
+
+}
+#microsoft-2{
+    display: flex;
+    margin-right:35px;
+    margin-left: 35px;
+}
+#microsoft-2 .features3{
+    width: 310px;
+    height: 190px;
+}
+#microsoft-2 ul{
+    list-style: none;
+}
+#microsoft-2 ul a{
+    text-decoration: none;
+}
+#microsoft-2 .navf2{
+    color: black;
+    font-family: 'Ubuntu', sans-serif;
+    margin-top: 32px;
+    font-weight: 800;
+}
+#microsoft-2 ul .lif1{
+    color:  rgb(99, 20, 20);
+    margin-top: 12px;
+    font-size: 18px;
+    font-weight: bold;
+}
+#microsoft-2 ul .lif1:hover{
+    text-decoration:underline 2.5px solid rgb(99, 20, 20);
+}
+#microsoft-2 ul .lif2{
+    font-size:17px;
+    margin-top: -5px;
+}
+
+#microsoft-3::before{
+    content: "";
+    position: absolute;
+    
+    width: 90%;
+    height: 67%;
+    z-index: -1;
+    opacity: 1;
+    background: url(onedrive.png) no-repeat center center/cover;
+    margin-left: 72px;
+    margin-right: 50px;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+#microsoft-3 button{
+    background-color: black;
+    color: white;
+    margin-left: 152px;
+    padding: 11px 25px;
+    margin-top: 340px;
+    font-size: 14px;
+    font-weight: 900;
+    border: none;
+    cursor: pointer;
+    
+    font-family: 'Ubuntu', sans-serif;
+    display: flex;
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+#microsoft-4{
+    margin-top: 220px;
+    margin-left: 72px;
+    margin-bottom: 2px;
+    font-size: 25px;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 900;
+}
+#microsoft-5{
+    display: flex;
+    margin-right:35px;
+    margin-left: 35px;
+}
+#microsoft-5 .features3{
+    width: 310px;
+    height: 190px;
+}
+
+#microsoft-5 ul{
+    list-style: none;
+}
+#microsoft-5 ul a{
+    text-decoration: none;
+}
+#microsoft-5 .navf2{
+    color: black;
+    font-weight: 400;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: .9rem;
+    margin-top: 32px;
+    
+}
+#microsoft-5 ul .lif1{
+    color:  rgb(99, 20, 20);
+    margin-top: 12px;
+    font-size: 18px;
+    font-weight: bold;
+}
+#microsoft-5 ul .lif1:hover{
+    text-decoration:underline 2.0px solid rgb(99, 20, 20);
+}
+#microsoft-5 ul .lif2{
+    font-size:17px;
+    margin-top: -10px;
+}
+#microsoft-6 .lif3{
+    font-size: 31px;
+    font-weight: 600;
+    font-family: 'Open Sans', sans-serif;
+    padding-top: 25px;
+    padding-bottom: 12px;
+
+}
+
+#covid{
+    background-color: #e0e0e0;
+    margin-left: 58px;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    
+}
+#covid .lif4{
+    font-size: 17px;
+    padding-bottom: 10px;
+
+}
+#covid .lif5{
+    font-size: 16px;
+    font-weight: 500;
+    font-family: 'Open Sans', sans-serif;
+    padding-bottom: 12px;
+}
+#covid .lif5 a{
+    color: black;
+}
+#covid .lif5:hover{
+    text-decoration: underline 2px ;
+}
+#microsoft-7 ul{
+    display: flex;
+    margin-left: 19px;
+    margin-top: 44px;
+    margin-bottom: 48px;
+}
+#microsoft-7 .lif6{
+    margin-left: 18px;
+    width: 30px;
+    height: 30px;
+    margin-top: -2px;
+
+}
+#microsoft-7 .lif7{
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 10;
+
+}
+#lasting{
+    display: flex;
+}
